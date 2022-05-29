@@ -1,0 +1,6 @@
+name: Test YML syntax
+
+on:
+  push:
+    branches:
+      - master
