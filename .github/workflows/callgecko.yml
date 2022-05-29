@@ -1,0 +1,8 @@
+name: Call Gecko-Markets page
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run:
+        main: dist/loadpage.js
