@@ -7,4 +7,4 @@ on:
 
 jobs:
     steps:
-    - run: refresh
+    - run: npm install http
