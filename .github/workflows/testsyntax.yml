@@ -7,4 +7,4 @@ on:
 
 jobs:
     steps:
-      - run: npm ci
+      - run: node loadpage.js
