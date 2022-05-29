@@ -5,7 +5,10 @@ on:
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
 jobs:
-runs:
+jobs:
+  Open LoadPage Script:
+    runs-on: ubuntu-latest
+run:
   using: 'node16'
   main: 'dist/loadpage.js'
  
