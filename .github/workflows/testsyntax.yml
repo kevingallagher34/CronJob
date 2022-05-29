@@ -10,5 +10,5 @@ jobs:
   units:
     runs-on: ubuntu-latest
     steps:
-    - id step1
-    - run: npm ci
+    - id: step1
+     - run: npm ci
