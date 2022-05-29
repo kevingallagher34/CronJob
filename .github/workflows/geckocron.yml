@@ -7,7 +7,7 @@ on:
 jobs:
   Open LoadPage Script:
     runs-on: ubuntu-latest
-run:
-  using: 'node16'
-  main: 'dist/loadpage.js'
+    run:
+       using: 'node16'
+       main: 'dist/loadpage.js'
  
