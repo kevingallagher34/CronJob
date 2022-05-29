@@ -4,5 +4,5 @@ on:
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
 jobs:
-    main: 'dist/loadpage.js'
+    main: '.github/workflows/callgecko.yml'
  
