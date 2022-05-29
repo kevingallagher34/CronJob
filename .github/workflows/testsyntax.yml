@@ -7,7 +7,6 @@ on:
 
 jobs:
   # unit tests
-  units:
     runs-on: ubuntu-latest
     steps:
     - id: step1
