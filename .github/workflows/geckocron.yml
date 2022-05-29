@@ -1,11 +1,16 @@
 
-name: Run tests
+name: CoinGecko-Market
 
 on:
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
-uses: satak/webrequest-action@master
-with:
-  url: https://coingecko-market.glitch.me
-  method: GET
-  
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: 'https://ansible.io/api/v2/job_templates/84/launch/'
+        method: 'GET'
+ 
