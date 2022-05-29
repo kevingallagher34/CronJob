@@ -7,4 +7,4 @@ on:
 
 jobs:
     steps:
-    - run: node loadpage.js
+    - run: npm install node
