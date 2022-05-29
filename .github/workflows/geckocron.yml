@@ -4,7 +4,5 @@ on:
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
 jobs:
-
-       using: 'node16'
-       main: 'dist/loadpage.js'
+    - main: 'dist/loadpage.js'
  
