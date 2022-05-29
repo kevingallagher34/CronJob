@@ -5,7 +5,6 @@ on:
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
 jobs:
-jobs:
   Open LoadPage Script:
     runs-on: ubuntu-latest
 run:
