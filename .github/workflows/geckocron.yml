@@ -10,5 +10,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2 # checkout the repository content to github runner.
-       run: npm run 'dist/loadpage.js'
+      - run: npm run 'dist/loadpage.js'
       # run: echo "reached the end of geckocron.yml"
