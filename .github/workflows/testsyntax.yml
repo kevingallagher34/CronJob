@@ -8,5 +8,4 @@ on:
 jobs:
     runs-on: ubuntu-latest
     steps:
-    - id: step1
-     - run: npm ci
+      - run: npm ci
