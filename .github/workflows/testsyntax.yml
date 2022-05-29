@@ -6,5 +6,7 @@ on:
       - main
 
 jobs:
+    runs-on: ubuntu-latest
     steps:
-    - run: npm install
+    - uses: node16
+    run: npm install
