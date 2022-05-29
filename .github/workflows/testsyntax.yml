@@ -7,4 +7,5 @@ on:
 
 jobs:
     steps:
+      - id: step1
       - run: npm ci
