@@ -1,11 +1,11 @@
 
 name: CoinGecko-Market
-
+    runs-on: ubuntu-latest
 on:
   schedule:
     - cron: '*/5 * * * *'  # every five minutes
 jobs:
-    runs-on: ubuntu-latest
+
     steps:
     - run:
        using: 'node16'
