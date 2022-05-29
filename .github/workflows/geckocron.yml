@@ -6,7 +6,7 @@ on:
 jobs:
 
     steps:
-    - run:
+    run:
        using: 'node16'
        main: 'dist/loadpage.js'
  
