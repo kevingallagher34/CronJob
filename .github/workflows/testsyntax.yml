@@ -7,4 +7,5 @@ on:
 
 jobs:
     steps:
-      run: node loadpage.js
+    - uses: actions/checkout@v2
+    run: node loadpage.js
