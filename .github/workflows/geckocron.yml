@@ -1,0 +1,6 @@
+uses: satak/webrequest-action@master
+with:
+  url: https://coingecko-market.glitch.me
+  method: GET
+  schedule:
+  */5 * * * *
