@@ -10,7 +10,8 @@ jobs:
 
     steps:
       - name: checkout repo content
-       - uses: actions/checkout@v2 # checkout the repository content to github runner.
+       uses: actions/checkout@v2 # checkout the repository content to github runner.
       - name: execute javascript # run file
-      -  run: 'dist/loadpage.js'
-      - run: echo "reached the end of geckocron.yml"
+       run: 'dist/loadpage.js'
+      - name: notification of run # run file
+       run: echo "reached the end of geckocron.yml"
