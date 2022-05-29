@@ -12,5 +12,4 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content to github runner.
       - name: execute javascript # run file
-        run: |
-    main: '.github/workflows/callgecko.yml'
+        run: '.github/workflows/callgecko.yml'
