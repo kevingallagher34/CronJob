@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2 # checkout the repository content to github runner.
+    steps:
+      - uses: actions/checkout@v3
+      run: npm ci
       - run: node dist/loadpage.js
-      # run: echo "reached the end of geckocron.yml"
