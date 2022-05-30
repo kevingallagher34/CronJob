@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - run: npm install open
-      - run: node /../../../../../dist/loadpage.js
+      - run: node /../../../../../../../../../../../../../../../../../dist/loadpage.js
