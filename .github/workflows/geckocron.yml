@@ -11,4 +11,4 @@ jobs:
     steps:
       - run: npm install open
       - run: node loadpage.js
-      working-directory: .github/dist
+        working-directory: .github/dist
