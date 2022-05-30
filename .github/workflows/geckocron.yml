@@ -9,4 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - run: npm install open
       - run: node /../../../../../dist/loadpage.js
