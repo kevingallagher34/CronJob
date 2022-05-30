@@ -15,5 +15,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: npm install
-      - run: node 'dist/loadpage.js'
+      - run: npm install # make sure node.js modules are installed
+      - run: node 'dist/loadpage.js' # run the script file that loads the page
