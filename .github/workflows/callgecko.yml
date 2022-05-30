@@ -15,5 +15,3 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: npm install
-      - run: node 'https://github.com/kevingallagher34/CronJob/blob/main/dist/loadpage.js'
