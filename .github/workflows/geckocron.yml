@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v3
       - run: npm install open # module for opening windows
       - run: node loadpage.js # javascript for loading the page
-        working-directory: .github/dist # set dist directory for script files
+        working-directory: .github/workflows # set dist directory for script files
       - run: echo "This job's status is ${{ job.status }}."
