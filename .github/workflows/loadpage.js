@@ -1,3 +1,11 @@
-const open = require('open')
+const axios = require('axios');
 
-open('https://coingecko-market.glitch.me') // Opens the url in the default browser
+axios
+  .get('https://coingecko-market.glitch.me')
+  .then(res => {
+    console.log(`statusCode: ${res.status}`);
+    console.log(res);
+  })
+  .catch(error => {
+    console.error(error);
+  });
