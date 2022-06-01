@@ -1,0 +1,16 @@
+
+name: CoinGecko-Market
+on:
+  schedule:
+    - cron: '0-59/6 * * * *'  # every five minutes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install axios # module for opening windows
+      - run: node loadpage.js # javascript for loading the page
+        working-directory: .github/workflows # set dist directory for script files
+      - run: echo "This job's status is ${{ job.status }}."
